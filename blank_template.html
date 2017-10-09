@@ -5,32 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <title>Table Template</title>
+    <title>Dogs Table</title>
 
     <link rel="shortcut icon" href="favicon_mdn.ico" type="image/x-icon">
     <link rel="stylesheet" href="minimal_table.css" type="text/css">
 </head>
 <body>
-    <h1>Table Template</h1>
+    <h1>Dogs Table</h1>
     <table>
         <tr>
-            <td>Row1, 1st cell</td>
-            <td>Row1, 2nd cell</td>
-            <td>Row1, 3rd cell</td>
-            <td>Row1, 4th cell</td>
+            <td>&nbsp;</td> <!-- entity for non-breaking space -->
+            <th scope="col">Knocky</h>
+            <th scope="col">Flor</th>
+            <th scope="col">Ella</th>
+            <th scope="col">Juan</th>
         </tr>
         <tr>
-            <td>Row2, 1st cell</td>
-            <td>Row2, 2nd cell</td>
-            <td>Row2, 3rd cell</td>
-            <td>Row2, 4th cell</td>
+            <th scope="row">Breed</th>
+            <td>Jack Russell</td>
+            <td>Poodle</td>
+            <td>Streetdog</td>
+            <td>Cocker Spaniel</td>
         </tr>
         <tr>
-            <td>Row3, 1st cell</td>
-            <td>Row3, 2nd cell</td>
-            <td>Row3, 3rd cell</td>
-            <td>Row3, 4th cell</td>
+            <th scope="row">Age</th>
+            <td>16</td>
+            <td>9</td>
+            <td>10</td>
+            <td>5</td>
         </tr>
+        <tr>
+            <th scope="row">Owner</th>
+            <td>Mother-in-law</td>
+            <td>Me</td>
+            <td>Me</td>
+            <td>Sister-in-law</td>
+        </tr>
+        <tr>
+            <th scope="row">Eating Habbits</th>
+            <td>Eats everyones leftovers</td>
+            <td>Nibbles at food</td>
+            <td>Hearty eater</td>
+            <td>Will eat till he explodes</td>
+            </tr>
     </table>
 
 </body>
