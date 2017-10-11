@@ -20,12 +20,10 @@ HTML_tables_basics - Basic familiarity with HTML <code>&lt;table&gt;</code>
 timetable - the timetable of a languages teacher 
 =================================================
 
- Project Objective is to highlight the columns she's teaching.
+ Project Objective is to highlight different columns.
  <dl>
-    <dt><code>&lt;colgroup&gt;</code></dt>
-      <dd>Use of </dd>
-    <dt><code>&lt;col&gt;</code></dt>
-      <dd>Use of </dd>
+    <dt><code>&lt;colgroup&gt;</code> &amp; <code>&lt;col&gt;</code> Elements</dt>
+      <dd>Providing common styling to colums </dd>
 </dl>
 
 
