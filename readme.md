@@ -26,6 +26,7 @@ timetable - the timetable of a languages teacher
 </dl>
 
 spending_records - A simple table showing personal expenditures
+items_sold - A simple table showing sales information
 ================================================================
 As tables get a bit more complex in structure, it is useful to give them more 
 structural definitions which allow you to mark up a header, footer, and body 
@@ -62,6 +63,9 @@ section for the table.
     <dd>Can be added to the <code>&lt;th&gt; element to tell screenreaders 
       exactly what cells the header is a header for — is it a header for 
       the row it is in, or the column.
+    </dd>
+    <dd>Values for <code>scope</code> attribute include; <code>"col"</code>, 
+      <code>"colgroup"</code>, <code>"row"</code> &amp; <code>"rowgroup"</code>
     </dd>
 </dl>
 
