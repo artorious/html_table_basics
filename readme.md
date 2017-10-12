@@ -51,6 +51,18 @@ section for the table.
       table header or footer. It will appear below the table header or sometimes 
       footer, depending on how you decided to structure it.
     </dd>
+  <dt>Using column and row headers</dt>
+    <dd>Screenreaders will identify all headers and use them to make 
+      programmatic associations between those headers and the cells they relate 
+      to. The combination of column and row headers will identify and interpret 
+      the data in each cell so that screenreader user can interpret the table 
+      similarly to how a sighted user does.
+    </dd>
+  <dt>The <code>scope</code> attribute</dt>
+    <dd>Can be added to the <code>&lt;th&gt; element to tell screenreaders 
+      exactly what cells the header is a header for — is it a header for 
+      the row it is in, or the column.
+    </dd>
 </dl>
 
 
