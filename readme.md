@@ -67,6 +67,11 @@ section for the table.
     <dd>Values for <code>scope</code> attribute include; <code>"col"</code>, 
       <code>"colgroup"</code>, <code>"row"</code> &amp; <code>"rowgroup"</code>
     </dd>
+  <dt>The <code>id</code> and <code>headers</code> attributes</dt>
+    <dd>An alternative to using the <code>scope</code> attribute is to use 
+      <code>id</code> &amp; <code>headers</code> attributes to create 
+      associations between headers and cells.
+    </dd>
 </dl>
 
 
